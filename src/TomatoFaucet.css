@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'bushcraft';
+	src: local('bushcraft'), url(./fonts/one shadow.otf) format('truetype');
+}
+
+@font-face {
+	font-family: 'LeagueGothic-Regular';
+	src: local('LeagueGothic-Regular'), url(./fonts/LeagueGothic-Regular.otf) format('truetype');
+}
+
+.App {
+	margin-top: 12vw;
+	margin-left: auto;
+	text-align: center;
+	font-family: 'bushcraft';
+	font-size: 240%;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.Paper{
+	height: 10vh;
+	width: 30vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.InputText{
+	font-family: 'LeagueGothic-Regular';
+	font-size: 1.2rem;
+
+	padding: 1px 14px;
+	height: 5vh;
+	width: 20vw;
+	margin-top: 1vw;
+	margin-left: auto;
+
+	border: .12rem solid #A0A0A0; 
+	border-radius: 3%;
+}
+
+.InputText:hover {
+	border: .12rem solid #000000; 
+}
+
+
+.button {
+	margin-left: 1vw;
+	font-family: 'LeagueGothic-Regular';
+	font-size: 1.2rem;
+	height: 4.5vh;
+	min-width: 5vw;
+
+	background-color: white;
+	color: black;
+	border: 2px solid #e7e7e7;
+	border-radius: 8%;
+}
+
+.button:hover {
+	background-color: #e7e7e7;
+}
+
+.error {
+	height: 4vh;
+	display: inline-block;
+
+	margin-top: 20px;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.errorText{
+	color: red;
+	font-family: 'Domine';
+	font-size: 0.5em;
+	padding: 1px 14px;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height:  4vh;
+}
