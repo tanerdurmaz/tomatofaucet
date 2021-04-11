@@ -1,12 +1,11 @@
-#start test:
+# setup: 
+-`npm install` to install all required dependencies
 
-npm test
+-`npm test` to start test
 
-#start Tomato Faucet:
+-`npm start` to start the local server (this project uses create-react-app)
 
-npm start
-
-#implementation details:
+# implementation details:
 
 -Icon sizes 192 and 512 not exist like in example Matic Faucet
 
