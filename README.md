@@ -6,7 +6,7 @@ npm test
 
 npm start
 
-implementation details:
+#implementation details:
 
 -Icon sizes 192 and 512 not exist like in example Matic Faucet
 
